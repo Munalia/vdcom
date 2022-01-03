@@ -92,7 +92,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Movie Channel', url='https://t.me/MovieMess')
+                    InlineKeyboardButton('Movie Channel', url='https://t.me/KS_UpdatesChannel')
                 ],
                 [
                     InlineKeyboardButton('Owner', url='https://t.me/KumarSwamiKS')
@@ -113,7 +113,7 @@ async def incoming_compress_message_f(bot, update):
           if user.status == "kicked":
              await bot.send_message(
                  chat_id=update.chat.id,
-                 text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                 text="Sorry Sir, You are Banned to use me.",
                  parse_mode="markdown",
                  disable_web_page_preview=True
              )
@@ -135,7 +135,7 @@ async def incoming_compress_message_f(bot, update):
       except Exception:
           await bot.send_message(
               chat_id=update.chat.id,
-              text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+              text="Something went Wrong. Contact my [Support Group](https://t.me/KumarSwamiKS).",
               parse_mode="markdown",
               disable_web_page_preview=True
           )
