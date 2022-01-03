@@ -75,7 +75,7 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Movie Channel', url='https://t.me/MovieMess')
+                    InlineKeyboardButton('Movie Channel', url='https://t.me/KS_UpdatesChannel')
                 ],
                 [
                     InlineKeyboardButton('Owner', url='https://t.me/KumarSwamiKS')
