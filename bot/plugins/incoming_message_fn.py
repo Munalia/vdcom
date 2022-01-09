@@ -97,7 +97,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Updates Channel', url='https://t.me/KS_UpdatesChannel')
+                    InlineKeyboardButton('Updates Channel', url='https://t.me/KS_MovieMess')
                 ],
                 [
                     InlineKeyboardButton('Owner', url='https://t.me/KumarSwamiKS')
